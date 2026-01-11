@@ -52,9 +52,7 @@ SETTINGS = Settings(
 
     # Google Sheets document URL
     spreadsheet_url=os.getenv(
-        "SPREADSHEET_URL",
-        "https://docs.google.com/spreadsheets/d/1e3r7wOI830j8NA6KcZCAoDn7avk7zG9OyULNg6CWwJU/edit",
-    ),
+        "Spreadsheet", ""),
 
     # Service account credentials file for Google Sheets API
     credentials_file=os.getenv("GOOGLE_CREDS_FILE", "credentials.json"),
